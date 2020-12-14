@@ -1,0 +1,6 @@
+jobs:
+  test: 
+    requires: [ ~pr, ~commit, ~tag, ~release ]
+    image: node:12
+    steps:
+      - echo: echo "test"
