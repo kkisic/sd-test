@@ -4,3 +4,5 @@ jobs:
     image: node:12
     steps:
       - echo: echo "test"
+    environment:
+      SD_ZIP_ARTIFACTS: true
